@@ -31,3 +31,23 @@ body {
 .celciusButton:hover {
   cursor: pointer;
 }
+
+.search-form {
+}
+
+.search-form-input {
+  font-family: "Jost", sans-serif;
+  border-color: rgba(128, 128, 128, 0.323);
+  border-radius: 16px;
+  width: 85%;
+  padding: 10px;
+}
+
+.search-form-button {
+  font-family: "Jost", sans-serif;
+  border-color: rgba(128, 128, 128, 0.323);
+  border-radius: 16px;
+  width: 13%;
+  padding: 10px;
+  background-color: white;
+}
