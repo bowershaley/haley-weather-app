@@ -3,39 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Miami</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 80%, Wimd 20km/h
-        </p>
-      </div>
-      <div>
-        🌧️ <span class="currentTemperature">85</span>°F |
-        <button class="celciusButton">°C</button>
-      </div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Miami</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 80%, Wimd 20km/h
+          </p>
+        </div>
+        <div>
+          🌧️ <span class="currentTemperature">85</span>°F |
+          <button class="celciusButton">°C</button>
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/bowershaley" target="_blank"> Haley Bowers</a>
-      ,
-      <a href="https://github.com/bowershaley?tab=repositories" target="_blank"
-        >open-sourced on Github</a
-      >
-      and hosted by
-      <a href="https://www.netlify.com/" target="_blank">Netfily</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/bowershaley" target="_blank">
+          Haley Bowers</a
+        >
+        ,
+        <a
+          href="https://github.com/bowershaley?tab=repositories"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and hosted by
+        <a href="https://www.netlify.com/" target="_blank">Netfily</a>
+      </footer>
+    </div>
   </body>
 </html>
