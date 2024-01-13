@@ -15,7 +15,7 @@ body {
 }
 
 .weather-app {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   max-width: 500px;
   margin: 80px auto;
   padding: 30px;
@@ -59,17 +59,10 @@ main {
   font-size: 20px;
 }
 
-.weather-app-emoji {
-  font-size: 110px;
-  position: relative;
-  right: -390px;
-  top: -230px;
-  margin-bottom: -250px;
-}
 .weather-app-temperature {
   font-size: 60px;
   position: relative;
-  top: -30px;
+  top: -190px;
 }
 
 .weather-app-city {
@@ -78,21 +71,30 @@ main {
 
 .weather-app-details {
   position: relative;
-  left: 190px;
-  top: -90px;
+  left: 170px;
+  top: -270px;
   text-align: center;
+}
+
+.weather-app-emoji {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  top: -160px;
+  left: 340px;
+  margin: 0;
 }
 
 .calendar {
   font-size: 16px;
   position: relative;
-  top: -310px;
+  top: -500px;
 }
 
 footer {
   text-align: center;
   font-size: 11px;
   position: relative;
-  bottom: 90px;
-  margin-bottom: -90px;
+  bottom: 250px;
+  margin-bottom: -250px;
 }
