@@ -16,7 +16,7 @@ body {
 
 .weather-app {
   background: rgba(255, 255, 255, 0.6);
-  max-width: 600px;
+  max-width: 500px;
   margin: 80px auto;
   padding: 30px;
   border-radius: 20px;
@@ -27,12 +27,11 @@ body {
 .celciusButton {
   background-color: transparent;
   border: none;
+  font-size: 20px;
+  padding: 0;
 }
 .celciusButton:hover {
   cursor: pointer;
-}
-
-.search-form {
 }
 
 .search-form-input {
@@ -50,4 +49,50 @@ body {
   width: 13%;
   padding: 10px;
   background-color: white;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.temp-scale {
+  font-size: 20px;
+}
+
+.weather-app-emoji {
+  font-size: 110px;
+  position: relative;
+  right: -390px;
+  top: -230px;
+  margin-bottom: -250px;
+}
+.weather-app-temperature {
+  font-size: 60px;
+  position: relative;
+  top: -30px;
+}
+
+.weather-app-city {
+  font-size: 60px;
+}
+
+.weather-app-details {
+  position: relative;
+  left: 190px;
+  top: -90px;
+  text-align: center;
+}
+
+.calendar {
+  font-size: 16px;
+  position: relative;
+  top: -300px;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  position: relative;
+  bottom: 90px;
+  margin-bottom: -90px;
 }
